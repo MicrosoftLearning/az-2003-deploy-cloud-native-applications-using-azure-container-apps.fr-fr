@@ -842,13 +842,11 @@ Suivez ces étapes afin de configurer des règles de mise à l’échelle HTTP p
 
 1. Vérifiez que votre application conteneur est ouverte dans le portail.
 
-1. Dans le menu de gauche sous Application, sélectionnez **Révisions**.
+1. Dans le menu de gauche sous Application, sélectionnez **Révisions et réplicas**.
 
 1. Notez le nom affecté à votre révision active.
 
-1. Dans le menu de gauche sous Application, sélectionnez **Mise à l'échelle et réplicas**.
-
-1. À droite du menu Révision, vérifiez que votre révision active est sélectionnée.
+1. Dans le menu de gauche sous Application, sélectionnez **Mettre à l’échelle**.
 
 1. En haut de la page, sélectionnez **Modifier et déployer**.
 
@@ -1038,7 +1036,7 @@ Suivez ces étapes pour définir la gestion des révisions sur Multiple.
 
 1. Dans le portail Azure, ouvrez votre ressource d'application conteneur.
 
-1. Dans le menu de gauche, sous Application, sélectionnez **Révisions**.
+1. Dans le menu de gauche, sous Application, sélectionnez **Révisions et réplicas**.
 
 1. Dans la partie supérieure de la page Révisions, sélectionnez **Choisir le mode Révision**.
 
@@ -1087,13 +1085,13 @@ Suivez ces étapes pour configurer des étiquettes sur les révisions.
 
     - Connexions non sécurisées : vérifiez que Autorisées n'est **PAS** coché.
 
-    - Port cible : entrez **80**
+    - Port cible : Entrez **5000**
 
     - Mode Restrictions de sécurité IP : vérifiez que **Autoriser tout le trafic** est sélectionné.
 
 1. Au bas de la page Entrée, sélectionnez **Enregistrer**, puis patientez jusqu'à la fin de la mise à jour.
 
-1. Dans le menu de gauche, sous Révisions, sélectionnez **Révisions**.
+1. Dans le menu de gauche, sous Révisions, sélectionnez **Révisions et réplicas**.
 
 1. Pour la révision v2, sous Étiquette, entrez **mise à jour**
 
