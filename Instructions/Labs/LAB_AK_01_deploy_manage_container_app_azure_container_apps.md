@@ -848,11 +848,7 @@ Suivez ces étapes afin de configurer des règles de mise à l’échelle HTTP p
 
 1. Dans le menu de gauche sous Application, sélectionnez **Mettre à l’échelle**.
 
-1. En haut de la page, sélectionnez **Modifier et déployer**.
-
-1. En bas de la page, sélectionnez **Suivant : mise à l'échelle**.
-
-1. Configurez les réplicas min/max comme suit :
+1. Notez le **paramètre Règle de mise à l’échelle** actuel. Configurez les réplicas min/max comme suit :
 
     - définissez les réplicas min : 0
     - Définissez les réplicas max : 2
@@ -867,11 +863,11 @@ Suivez ces étapes afin de configurer des règles de mise à l’échelle HTTP p
 
 1. Sur la page Ajouter une règle de mise à l'échelle, sélectionnez **Ajouter**.
 
-1. Sur la page Créer et déployer une nouvelle révision, sélectionnez **Créer**.
+1. Dans la page Mise à l’échelle, sélectionnez **Enregistrer en tant que nouvelle révision**.
 
 1. Assurez-vous que votre nouvelle règle de mise à l'échelle est affichée.
 
-    Si la règle de mise à l’échelle ne s’affiche pas après l’actualisation, accédez à l’onglet Révisions pour voir la révision active actuelle, puis ajustez la révision sélectionnée dans la page Mise à l’échelle et réplicas si nécessaire.
+    Si la règle de mise à l’échelle ne s’affiche pas après l’actualisation, accédez à la révision sélectionnée pour voir la révision active actuelle, puis ajustez la révision sélectionnée dans la page Mise à l’échelle et réplicas si nécessaire.
 
 ### Exercice 6 : Configurer l’intégration continue à l’aide d’Azure Pipelines
 
