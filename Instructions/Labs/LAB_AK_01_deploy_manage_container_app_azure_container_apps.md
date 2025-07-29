@@ -342,13 +342,15 @@ Suivez ces étapes pour configurer le projet Azure DevOps.
     - Description : **Projet de code AZ2003**
     - Visibilité : **Public**
 
-1. Sélectionnez **Créer un projet**.
+1. Sélectionnez **Créer**.
 
-1. Dans le menu de gauche de votre page AZ2003Project, sélectionnez **Dépôt**.
+1. Sélectionnez le projet **AZ2003Project**
 
-1. Sous Initialiser la branche principale avec un fichier README ou gitignore, sélectionnez **Initialiser**.
+1. Dans le menu de gauche de la page du projet AZ2003Project, sélectionnez **Dépôts**.
 
-1. Sélectionnez **Cloner**, puis **Cloner dans VS Code**.
+1. Dans la section Tous les dépôts, sélectionnez **AZ2003Project**, puis cliquez sur **Parcourir**.
+
+1. Sélectionnez **Cloner dans VS code**.
 
 1. Dans la boîte de dialogue Ce site essaie d’ouvrir Visual Studio Code, sélectionnez **Ouvrir**.
 
@@ -801,7 +803,7 @@ Effectuez les étapes suivantes pour configurer l'application conteneur afin qu'
 
 1. Sur le portail Azure, ouvrez l'application conteneur que vous avez créée.
 
-1. Sous Paramètres, sélectionnez **Identité**.
+1. Sous Sécurité, sélectionnez **Identité**.
 
 1. Sélectionnez l'onglet pour **Utilisateur attribué**.
 
@@ -1065,7 +1067,7 @@ L’entrée doit être activée avant de pouvoir configurer les étiquettes de r
 
 Suivez ces étapes pour configurer des étiquettes sur les révisions.
 
-1. Dans le menu de gauche, sous Paramètres, sélectionnez **Entrée**.
+1. Dans le menu de gauche, sous Mise en réseau, sélectionnez **Entrée**.
 
 1. Si l'entrée n'est pas activée, sélectionnez **Activée**.
 
